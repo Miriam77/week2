@@ -1,4 +1,43 @@
-.row1{
-    width: 10%;
-    height: 50%
+.container{
+    background-size: cover;
+    
+}
+
+.row{
+    width:100%;
+  margin:5%;
+    
+}
+
+.card1{
+    background-image: url("http://cdn.digital-photo-secrets.com/images/spring-field-dandelions-sunny-day.jpg");
+    background-size: cover;
+    font-size: 24px;
+    height: 560px;
+
+}
+.card2{
+    background-image: url("http://i0.wp.com/www.sanangelonow.com/wp-content/uploads/2016/03/raindrops-828954_640.jpg?resize=640%2C360");
+    background-size: cover;
+    height: 560px;
+}
+.card3{
+    background-image: url("http://img12.deviantart.net/fd6c/i/2012/023/1/8/foggy_2_by_twilitesmuse-d4nfo74.jpg");
+    background-size: cover;
+    height: 560px;
+}
+.card4{
+    background-image: url("http://www.delfa.com.ua/images/fotogalerei_stran/ireland/zima/9.jpg");
+    background-size: cover;
+    height: 560px;
+}
+.card5{
+    background-image: url("http://www.grandfather.com/wp-content/uploads/2012/08/fall-road.jpg");
+    background-size: cover;
+    height: 560px;
+}
+.card6{
+    background-image: url("http://006336a4fb320c55bdd7-d3979c3aeed47929f36ccb7524e39788.r24.cf1.rackcdn.com/Article-Images/tornado-safety-01.jpg");
+    background-size: cover;
+    height: 560px;
 }
