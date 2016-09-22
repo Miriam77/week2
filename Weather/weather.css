@@ -8,16 +8,13 @@
   margin:5%;
     
 }
-
 .card1{
-    background-image: url("http://cdn.digital-photo-secrets.com/images/spring-field-dandelions-sunny-day.jpg");
+background-image: url("http://i0.wp.com/www.sanangelonow.com/wp-content/uploads/2016/03/raindrops-828954_640.jpg?resize=640%2C360");
     background-size: cover;
-    font-size: 24px;
     height: 560px;
-
 }
 .card2{
-    background-image: url("http://i0.wp.com/www.sanangelonow.com/wp-content/uploads/2016/03/raindrops-828954_640.jpg?resize=640%2C360");
+   background-image: url("https://a2ua.com/sunshine/sunshine-013.jpg");
     background-size: cover;
     height: 560px;
 }

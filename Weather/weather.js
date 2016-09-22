@@ -17,9 +17,9 @@ $(function () {
 
 
 
-            $.ajax("https://api.darksky.net/forecast/8b07e5441d304f181be557afd306351d/37.8267,-122.4233")
-                .done(function (data) {
-                    $("#weather").append(data.temperature + data.icon);
+            $.ajax("http://rest.learncode.academy/api/learncode/friends/57e2c05d1ebec6010006184f") //adding a single person
+.done(function (data){
+    $("#me").append(data.name + " likes " + data.drink); //pulling the data from the http
 
-                });
-
+  });
+ });
