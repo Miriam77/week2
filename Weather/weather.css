@@ -9,9 +9,11 @@
     
 }
 .card1{
-background-image: url("http://i0.wp.com/www.sanangelonow.com/wp-content/uploads/2016/03/raindrops-828954_640.jpg?resize=640%2C360");
+/*background-image: url("http://i0.wp.com/www.sanangelonow.com/wp-content/uploads/2016/03/raindrops-828954_640.jpg?resize=640%2C360");*/
+   background-color: skyblue;
     background-size: cover;
     height: 560px;
+    font-size: 24;
 }
 .card2{
    background-image: url("https://a2ua.com/sunshine/sunshine-013.jpg");
