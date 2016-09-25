@@ -14,31 +14,39 @@
 
 <body>
 
-    <h1>Weather Now</h1>
-    <form>
-        <label for="zipcode"> Enter Zipcode</label><br>
-        <input type="text" placeholder="Your zipcode" id="newzip">
-        <button type="button" id="get"> Search </button>
-    </form>
-
-
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="http://www.facebook.com">Facebook</a></li>
+        <li role="presentation"><a href="http://www.weather.com">Weather Channel</a></li>
+    </ul>
 
     <div class="container">
+        <h1>Weatherly</h1>
         <div class="row">
-            <div class="col-xs-4 panel panel-default panel-body card1">
-                <h2 class="getTemp"></h2>
-
+            <div class="card">
+                <div class="col-sm-4 card card-block box1">
+                    <h2 class="getTemp"></h2>
+                    <form>
+                        <label for="zipcode"></label><br>
+                        <input type="text" placeholder="Your zipcode" id="newzip">
+                        <button type="button" id="get"><span class="glyphicon glyphicon-cloud"></span> Search </button>
+                    </form>
+                </div>
+                <div class="col-sm-4 card card-block box2">
+                </div>
+                <div class="col-sm-4 card card-block  box3"></div>
             </div>
-            <!--<div class="col-sm-4 panel panel-default panel-body card2">Testing </div>
-            <div class="col-sm-4 panel panel-default panel-body card3">testing</div>
-            <div class="col-sm-4 panel panel-default panel-body card4"></div>
-            <div class="col-sm-4 panel panel-default panel-body card5"> </div>
-            <div class="col-sm-4 panel panel-default panel-body card6"></div>-->
-
-
-
+            <div class="card2">
+                <div class="col-sm-4 card card-block  box4"></div>
+                <div class="col-sm-4 card card-block  box5"> </div>
+                <div class="col-sm-4 card card-block  box6"></div>
+            </div>
         </div>
+
+
+
     </div>
+
 
 
     <!-- Official JQuery -->
