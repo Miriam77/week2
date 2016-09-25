@@ -1,53 +1,59 @@
 
-.container{
-    
-    
+.rounded{
+    border-radius:35px;
+    padding: 20px;
+}
+.getTemp{
+    text-align: center;
+}
+.row{
+  height: 550px;
+  background-position: center; 
+  width: 100%;  
 }
 
-.card{
-  margin: 5%;
-  border-radius: 50px;
-  height: 560px;
-  background-position: center;
-  text-anchor: center;
-  
-    
-}
 .box1{
 background-image: url("http://www.omgubuntu.co.uk/wp-content/uploads/2013/12/Flat-Weather-Icon-Set.png");
-    background-size: cover; 
     font-size: 12;
     color: darkblue;
+    height: 550px;
+    padding: 30px;
    
 }
 .box2{
    background-image: url("https://a2ua.com/sunshine/sunshine-013.jpg");
-    background-size: cover;
-  
-
-
+   height: 550px; 
+   padding: 30px;
+   color: lawngreen;
+   font-size: 12;
+   
 }
 .box3{
-    background-image: url("http://img12.deviantart.net/fd6c/i/2012/023/1/8/foggy_2_by_twilitesmuse-d4nfo74.jpg");
-    background-size: cover;
-  
-   
-    
+    background-image: url("http://ai-i1.infcdn.net/icons_siandroid/png/200/3043/3043266.png");
+    padding: 30px;  
+    height: 550px;
 }
-.box4{
-    background-image: url("http://www.delfa.com.ua/images/fotogalerei_stran/ireland/zima/9.jpg");
-    background-size: cover;
-    height: 560px;
-    
+
+.row2{
+    height: 550px;
+    width: 100%;
+    background-position: center; 
+     
+}
+.box4 {
+    background-image: url("http://www.linguafrancesa.com/lf/wp-content/uploads/2014/08/soleil.jpg");
+    padding: 30px;
+    height: 550px;
 }
 .box5{
-    background-image: url("http://www.grandfather.com/wp-content/uploads/2012/08/fall-road.jpg");
-    background-size: cover;
-    height: 560px;
+   background-image: url("http://lh3.googleusercontent.com/zW8D4U_TdD4Dqzc3-wswkB4uPlpIw7qoQkCPk7-CINDNFddSeyXW0qsGIwcmGxtFZQ=w300");
+   padding: 30px;
+   height: 550px;
+
 
 }
 .box6{
-    background-image: url("http://006336a4fb320c55bdd7-d3979c3aeed47929f36ccb7524e39788.r24.cf1.rackcdn.com/Article-Images/tornado-safety-01.jpg");
-    background-size: cover;
-    height: 560px;
+   background-image: url("http://img04.deviantart.net/bdf1/i/2010/217/8/9/simple_rainbow_by_rainbowbriteuk.jpg");
+   height: 550px;
+   padding: 30px;
 }
