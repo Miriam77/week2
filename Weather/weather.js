@@ -14,11 +14,10 @@ $(function () {
         console.log(data);
         //darksky
         $.ajax("https://api.darksky.net/forecast/bcaf790b600851512d4bd14890a70a50/" + lat + "," + lng, { dataType: "jsonp" }).done(function (data) {
-          var temp = Math.round(data.currently.temperature);
-          var maxTemp = Math.round(data.daily.data[0].apparentTemperatureMax);
-          var minTemp = Math.round(data.daily.data[0].apparentTemperatureMin);
+          var temp = Math.round(data.currently.temperature) + "&deg;";
+          var maxTemp = Math.round(data.daily.data[0].apparentTemperatureMax) + "&deg;";
+          var minTemp = Math.round(data.daily.data[0].apparentTemperatureMin) + "&deg;";
           console.log(data);
-
           $(".getTemp").append("Current:  ", temp, "<br/>", "High:  ", maxTemp, "<br/>", "Low:  ", minTemp, "<br/>", city, ",", state);
 
         });
